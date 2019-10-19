@@ -77,7 +77,7 @@
       </div>
       <div class="block">
         <h3 class="block-heading">Shape Type</h3>
-        <div class="wrapper">
+        <div class="wrapper center">
           <select id="shape-select">
             <option value="1">Square</option>
             <option value="2">Circle</option>
@@ -88,7 +88,7 @@
       </div>
       <div class="block">
         <h3 class="block-heading">HEX</h3>
-        <div class="wrapper">
+        <div class="wrapper center">
           <div class="input-wrapper">
             <label for="hex">#</label>
             <input type="text" id="hex" />
@@ -97,7 +97,7 @@
       </div>
       <div class="block">
         <h3 class="block-heading">RGBA</h3>
-        <div class="wrapper">
+        <div class="wrapper rgba-container">
           <input type="range" id="rgba-r" min="0" max="255" value="255" /><label
             for="rgba-r"
             >r</label
@@ -121,7 +121,9 @@
         </div>
       </div>
     </div>
-    <div class="container"></div>
+    <div class="container">
+      <div id="block"></div>
+    </div>
     <!-- Optional JavaScript -->
     <script src="script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

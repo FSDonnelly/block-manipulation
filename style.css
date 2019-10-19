@@ -7,6 +7,7 @@
   display: inline-block;
   vertical-align: top;
   color: #fff;
+  margin: 5px;
 }
 
 h3 {
@@ -48,4 +49,36 @@ h3 {
   width: 115px;
   display: flex;
   justify-content: space-between;
+}
+
+.center {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ok-shape {
+  margin-top: 10px;
+}
+
+#hex {
+  margin-top: 25px;
+  width: 100px;
+}
+
+.rgba-container {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.rgba-container input {
+  width: 80px;
+}
+
+#block {
+  width: 175px;
+  height: 175px;
+  background-color: #ff0000;
 }
