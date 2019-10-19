@@ -79,10 +79,14 @@ h3 {
 
 .container {
   margin-top: 20px;
+  position: relative;
 }
 
 #block {
   width: 175px;
   height: 175px;
   background-color: #ff0000;
+  position: absolute;
+  left: 0;
+  top: 0pc;
 }
